@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Code'){
             steps{
-                git url:  
+                git url: https://github.com/spdevops95/node1todo.git 
             }
         }
         stage('Build and Test'){
